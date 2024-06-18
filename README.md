@@ -9,3 +9,8 @@ cwgo server --type RPC --module github.com/Ccmuyu/biz-demo/gomall/demo_thrift --
   demo_thrift [main] ⚡  go work use .
 ☁  demo_thrift [main] ⚡  go run . 
 ```
+
+# docker compose
+```shell
+docker compose up -d
+```

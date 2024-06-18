@@ -36,6 +36,7 @@ func main() {
 		ctx.JSON(consts.StatusOK, utils.H{"ping": "pong"})
 	})
 
+	// 注册路由
 	router.GeneratedRegister(h)
 
 	h.Spin()
